@@ -100,23 +100,12 @@ Key techniques used:
 
 ## **Season-Level Outputs**
 
-### **📄 season_player_summary Table**
+### **Season Summary Table for top 15 WHU players**
 <img src="top_15_players.png" width="100%">
-
-Includes for each WHU player:
-
-- Matches played  
-- Average network centralities  
-- Passing volume  
-- Progressive passes  
-- Under-pressure actions  
-- Goal-chain actions  
-- xG-chain total  
-- Player Influence Index (PII)
 
 ---
 
-### ** Top 3 Players — Time Series Progression**
+### **Top 3 Players — Time Series Progression**
 
 For **Dimitri Payet**, **Mark Noble**, and **Aaron Cresswell**, we plot two timelines:
 
@@ -146,7 +135,7 @@ For **Dimitri Payet**, **Mark Noble**, and **Aaron Cresswell**, we plot two time
 
 ---
 
-### **🔍 Dimensionality Reduction & Role-Based Clustering**
+### **Dimensionality Reduction & Role-Based Clustering**
 
 Using PCA(3) + KMeans(4), players are clustered into 4 intuitive tactical roles:
 
