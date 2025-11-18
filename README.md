@@ -151,7 +151,7 @@ This provides a data-driven lens on squad roles.
 
 ---
 
-# 2. Double Poisson Model for Predicting Football Results
+# 3. Double Poisson Model for Predicting Football Results
 ## Comparing Match Outcome Predictions Across Two Modelling Strategies
 **Notebook file:** `poisson_brighton_vs_brentford_sat_22_nov_2025.ipynb` 
 
