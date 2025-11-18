@@ -2,12 +2,16 @@
 
 Advanced graph-based football analytics applied to West Ham United’s 2015–16 Premier League matches.
 
-This repository contains two Jupyter notebooks:
+This repository contains three Jupyter notebooks:
 
 1) **Single-Match Analysis**
 2) **Full-Season Analysis**
 
 Both notebooks use **StatsBomb Open Data**, network science, xG-chain logic, and PCA clustering to extract tactical and performance insights from match events.
+
+3) **Double Poisson Model for Predicting Football Results**
+
+This notebook investigates two variants of the double Poisson framework for football score prediction and applies them to forecast the outcome of an upcoming Premier League match between Brighton and Brentford that will be held on Saturday, 22 November 2025. The analysis and results were produced and uploaded on Tuesday, 18 November 2025.
 
 ---
 
