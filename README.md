@@ -151,6 +151,22 @@ This provides a data-driven lens on squad roles.
 
 ---
 
+# 2. Double Poisson Model for Predicting Football Results
+## Comparing Match Outcome Predictions Across Two Modelling Strategies
+**Notebook file:** `poisson_brighton_vs_brentford_sat_22_nov_2025.ipynb` 
+
+<img src="Brighton_vs_Brentford.png" width="100%">
+
+This notebook implements and compares two statistical approaches for football score prediction using the double Poisson framework: the Loukas et al. model and the Penn–Donnelly OA/VB formulation. Both models are fitted to historical Premier League match data and then applied to forecast the outcome of the upcoming Brighton vs Brentford match scheduled for 22 November 2025.
+
+The Loukas model uses season-level averages of goals scored and conceded to derive team attacking and defensive ratings, combined with an explicit home-advantage term. It predicts a slightly favourable outcome for Brighton, estimating a **49.1%** win probability, **20.2%** chance of a draw, and **30.7%** probability of a Brentford victory. The most likely exact scoreline under this model is **Brighton 2–1 Brentford (8.1%)**.
+
+The Penn–Donnelly OA/VB model instead estimates team strengths using maximum-likelihood optimisation over the full distribution of match results, without imposing a separate home-advantage term. This approach produces a more balanced view of the match, with **40.1%** probability of a Brighton win, **23.5%** probability of a draw, and **36.4%** chance of a Brentford win. The most likely exact scoreline under this specification is **1–1 (10.5%)**.
+
+Overall, the notebook demonstrates how different statistical formulations of the double Poisson model can yield distinct but informative match predictions, and serves as a practical example of implementing football analytics methods for real-world forecasting tasks.
+
+---
+
 # Summary
 
 This repository provides a complete analysis framework for:
