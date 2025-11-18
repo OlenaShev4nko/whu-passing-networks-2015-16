@@ -165,19 +165,6 @@ The Penn–Donnelly OA/VB model instead estimates team strengths using maximum-l
 
 Overall, the notebook demonstrates how different statistical formulations of the double Poisson model can yield distinct but informative match predictions, and serves as a practical example of implementing football analytics methods for real-world forecasting tasks.
 
----
-
-# Summary
-
-This repository provides a complete analysis framework for:
-
-- match-level tactical insights  
-- season-level influence profiling  
-- player role discovery  
-- progression + goal involvement modeling  
-- interactive visual outputs suitable for scouting, research, and coaching conversations  
-
-It combines football knowledge with modern data science methods to uncover patterns in team structure, player development, and tactical identity.
 
 ---
 
