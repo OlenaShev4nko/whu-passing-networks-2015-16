@@ -1,4 +1,4 @@
-# West Ham United — Passing Network Analytics (Premier League 2015–16)
+# West Ham United — Passing Network Analytics (Premier League 2015–16) + Double Poisson Model for Predicting Football Results
 
 Advanced graph-based football analytics applied to West Ham United’s 2015–16 Premier League matches.
 
